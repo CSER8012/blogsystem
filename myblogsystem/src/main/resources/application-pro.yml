@@ -1,0 +1,12 @@
+spring:
+ logging:
+  level:
+   root: info
+   com.example: info
+  file: e:/log/blogpro.log
+ jpa:
+     hibernate:
+       ddl-auto: create
+     show-sql: true
+server:
+  port: 8081
